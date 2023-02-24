@@ -16,13 +16,13 @@ body {
 .container-grid {
     width: 80%;
     margin: 0 auto;
-    background-color: royalblue;
+    
 }
 
 header {
     background-color: grey;
 }
-
+/* FLEX-BOX */
 header .header-flex {
     display: flex;
     justify-content: space-between;
@@ -31,9 +31,7 @@ header .header-flex {
 header h1 {
     color: white;
     font-weight: 300;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: 2px solid white;
+    
 }
 
 header h1 #logoux {
@@ -43,21 +41,30 @@ header h1 #logoux {
 
 
 h2 {
-    width: 300;
-    height: 300;
-    border: 1px solid red;
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 
-    margin-top:    10px;
-    margin-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    
+}
+
+p {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 header nav  {
     color: white;
-    margin-left: 15px;
-    margin-right: 15px;
-    border: 2px solid white;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
     
 }
 
@@ -66,7 +73,23 @@ header nav a {
 }
 
 h3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.column-flex {
+    display: flex;
+    justify-content: space-between;
 
 }
 
+main .coluna1 {
+    width: 75%;
+    background-color: brown;
+}
 
+main .coluna2 {
+    width: 20%;
+    background-color: burlywood;
+}
